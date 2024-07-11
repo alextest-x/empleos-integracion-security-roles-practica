@@ -1,0 +1,30 @@
+
+proyecto completo hasta el cap 15 del curso.
+empleos-integracion-security-roles.   update github
+
+
+
+empleos-integracion-security-roles-backup-video 12.
+empleos-integracion-security-roles-backup-video 15
+
+
+16. Ejercicio final de Spring Boot
+
+empleos-integracion-security-roles-practica
+ 
+
+
+
+
+
+- falta categorias al editar se graba otro registro en lugar de modificar
+
+- eliminar un usuario de la lista de usuarios no elimina
+  porque tiene que eliminar de solicitudes que estan en la lista de solicitudes
+  por la llave foranea que tiene asociada a ese usuario
+
+  
+   para eliminar un usuario no elimina hasta que se elimine de solicitudes por llave foranea 
+
+
+   para eliminar una vacante no elimina hasta que se elimine de solicitudes por llave foranea

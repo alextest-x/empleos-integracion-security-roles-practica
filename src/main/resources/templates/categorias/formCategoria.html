@@ -36,8 +36,9 @@
               <div class="row">
                 <div class="col-md-6"> 
                   <div class="form-group">
+                      <!-- se manda escondido la categoria id para que no duplique el registro -->
+                      <input type="hidden"  th:name="categoria.id" th:value="${categoria.id}"  th:field="*{id}">
                     <label for="nombre">Nombre</label>
-                   <!-- <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escriba el nombre de la categoria" required="required"> -->
                       <input type="text" class="form-control" th:field="*{nombre}" id="nombre" name="nombre" placeholder="Escriba el nombre de la categoria" required="required">
                   </div>
                 </div>                
